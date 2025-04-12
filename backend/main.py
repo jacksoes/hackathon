@@ -8,27 +8,12 @@ import matplotlib.pyplot as plt
 
  
 
-# Step 1: Create random data
 
-np.random.seed(42)
-
-df = pd.DataFrame({
-
-    'Day': np.arange(1, 11),
-
-    'Temperature': np.random.randint(60, 100, size=10),
-
-    'Humidity': np.random.randint(30, 80, size=10)
-
-})
 
  
 
-# Save to CSV
-
 csv_filename = "random_weather.csv"
 
-df.to_csv(csv_filename, index=False)
 
  
 
