@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-col-page{
+    background-color: lightgreen;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#graph{
+    height: 75vh;
+    width: 75vw;
+    background-color: lightblue;
+    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
